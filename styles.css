@@ -1,15 +1,41 @@
+* {
+    margin: 0;
+    padding; 0;
+}
 body {
-    background-color: rgb(31, 31, 31);
-    color: whitesmoke;
+    background-color: black;
+    color: black;
     font-family: 'Courier New', Courier, monospace;
 }
 
 .header {
+    background-color: white;
+    color: black;
+    height: 120px;
+    paddding: 20px;
+}
 
+.header h2 {
+    font-size: 30px;
+}
+
+.nav a {
+    color: whitesmoke;
+    text-decoration: none;
+    margin-left: 4px;
+    margin-right: 4px;
 }
 
 .hero {
+    height: 100vh;
+}
 
+.hero h1 {
+    margin: 20px;
+}
+
+.hero p {
+    margin: 20px;
 }
 
 .products {
